@@ -1,0 +1,720 @@
+{
+ "name": "POOL BTC mining pool dataset",
+ "source": "https://pool-btc.com/dataset/en/",
+ "license": "CC BY 4.0",
+ "attribution": "POOL BTC (pool-btc.com)",
+ "updated": "2026-11-02",
+ "count": 25,
+ "pools": [
+  {
+   "id": "antpool",
+   "name": "AntPool",
+   "website": "https://www.antpool.com/",
+   "coins": [
+    "BTC",
+    "BCH",
+    "LTC",
+    "ETC",
+    "KAS"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt / Etchash / kHeavyHash",
+   "payout_scheme": "FPPS / PPS / PPLNS",
+   "fee_percent": 4,
+   "fee_by_coin": null,
+   "min_payout": "0.005 BTC",
+   "fee_source": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5983010227993-Miners-Settings-Fees",
+   "fee_verified": "2026-08-18",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "viabtc",
+   "name": "ViaBTC",
+   "website": "https://www.viabtc.com/",
+   "coins": [
+    "BTC",
+    "BCH",
+    "LTC",
+    "ETC",
+    "DASH",
+    "ZEC",
+    "KAS"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt / Etchash / Equihash",
+   "payout_scheme": "PPS+ / PPLNS",
+   "fee_percent": 4,
+   "fee_by_coin": null,
+   "min_payout": "0.001 BTC",
+   "fee_source": "https://www.viabtc.com/en/pricing",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://btc.viabtc.io:3333",
+    "stratum+tcp://btc.viabtc.io:443"
+   ],
+   "stratum_ssl": [
+    "btc-ssl.viabtc.io:551"
+   ],
+   "stratum_v2": null,
+   "worker_format": "userID.workerID",
+   "stratum_source": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "f2pool",
+   "name": "F2Pool",
+   "website": "https://www.f2pool.com/",
+   "coins": [
+    "BTC",
+    "LTC",
+    "ETC",
+    "KAS"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt / Etchash / kHeavyHash",
+   "payout_scheme": "FPPS / PPLNS",
+   "fee_percent": 4,
+   "fee_by_coin": null,
+   "min_payout": "0.005 BTC",
+   "fee_source": "https://f2pool.io/mining/support/",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://btc.f2pool.com:1314",
+    "stratum+tcp://btc-euro.f2pool.com:1314",
+    "stratum+tcp://btc-na.f2pool.com:1314"
+   ],
+   "stratum_ssl": [
+    "stratum+ssl://btcssl-asia.f2pool.com:1300"
+   ],
+   "stratum_v2": null,
+   "worker_format": "account.worker",
+   "stratum_source": "https://f2pool.io/mining/support/",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "luxor",
+   "name": "Luxor",
+   "website": "https://www.luxor.tech/",
+   "coins": [
+    "BTC",
+    "LTC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt",
+   "payout_scheme": "FPPS",
+   "fee_percent": 2.5,
+   "fee_by_coin": null,
+   "min_payout": "0.001 BTC",
+   "fee_source": "https://docs.luxor.tech/platform/mining/getting-started",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://btc.global.luxor.tech:700"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "subaccount.worker",
+   "stratum_source": "https://docs.luxor.tech/platform/mining/getting-started",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "binance-pool",
+   "name": "Binance Pool",
+   "website": "https://accounts.binance.com/",
+   "coins": [
+    "BTC",
+    "LTC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt",
+   "payout_scheme": "FPPS",
+   "fee_percent": 4,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://www.binance.com/en/square/post/35011593361289",
+   "fee_verified": "2026-10-26",
+   "stratum": [
+    "stratum+tcp://bs.poolbinance.com:3333",
+    "stratum+tcp://sha256.poolbinance.com:443",
+    "stratum+tcp://btc.poolbinance.com:1800"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "account.worker",
+   "stratum_source": "https://www.binance.com/en/support/faq/frequently-asked-questions-on-binance-pool-f77a002dca084b22ab2e13ccf2f13f18",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "emcd",
+   "name": "EMCD",
+   "website": "https://emcd.io/",
+   "coins": [
+    "BTC",
+    "BCH",
+    "LTC",
+    "DOGE",
+    "DASH",
+    "ETC",
+    "KAS",
+    "FB",
+    "PEP",
+    "ZEC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt / X11 / Etchash / kHeavyHash",
+   "payout_scheme": "FPPS",
+   "fee_percent": 4,
+   "fee_by_coin": {
+    "BTC": 4,
+    "BCH": 1.5,
+    "LTC": 1.5,
+    "DOGE": 1.5,
+    "DASH": 1.5,
+    "ETC": 1.5,
+    "KAS": 1.5,
+    "FB": 1.5,
+    "PEP": 1.5,
+    "ZEC": 1.5
+   },
+   "min_payout": "0.0001 BTC",
+   "fee_source": "https://help.emcd.io/en/articles/16344471-essential-information-about-the-emcd-pool",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://gate.emcd.network:3333",
+    "stratum+tcp://eu.emcd.network:3333",
+    "stratum+tcp://us.emcd.network:3333"
+   ],
+   "stratum_ssl": [
+    "stratum+tls://eu.emcd.network:13339",
+    "stratum+tls://us.emcd.network:13339"
+   ],
+   "stratum_v2": null,
+   "worker_format": "login.worker",
+   "stratum_source": "https://help.emcd.io/en/articles/16344471-essential-information-about-the-emcd-pool",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "coinhold",
+   "name": "Coinhold",
+   "website": "https://coinhold.io/",
+   "coins": [
+    "BTC",
+    "BCH",
+    "LTC",
+    "DOGE",
+    "DASH",
+    "ETC",
+    "KAS",
+    "FB",
+    "PEP"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt / X11 / Etchash / kHeavyHash",
+   "payout_scheme": "FPPS",
+   "fee_percent": 4,
+   "fee_by_coin": {
+    "BTC": 4,
+    "BCH": 1.5,
+    "LTC": 1.5,
+    "DOGE": 1.5,
+    "DASH": 1.5,
+    "ETC": 1.5,
+    "KAS": 1.5,
+    "FB": 1.5,
+    "PEP": 1.5
+   },
+   "min_payout": "0.0001 BTC",
+   "fee_source": "https://help.emcd.io/en/articles/16344471-essential-information-about-the-emcd-pool",
+   "fee_verified": "2026-10-26",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "promminer",
+   "name": "Promminer",
+   "website": "https://pool.promminer.ru/",
+   "coins": [
+    "BTC",
+    "LTC",
+    "DOGE"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt",
+   "payout_scheme": "FPPS",
+   "fee_percent": 3,
+   "fee_by_coin": null,
+   "min_payout": "0.0001 BTC",
+   "fee_source": "https://promminer.ru/promminer-pool/",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "tpool",
+   "name": "Tpool",
+   "website": "https://tpool.io/",
+   "coins": [
+    "BTC",
+    "FB",
+    "BCH",
+    "LTC",
+    "DOGE",
+    "DASH",
+    "ETC",
+    "ZEC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt",
+   "payout_scheme": "FPPS",
+   "fee_percent": 0.9,
+   "fee_by_coin": null,
+   "min_payout": "0.0001 BTC",
+   "fee_source": "https://tpool.io/",
+   "fee_verified": "2026-09-09",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "trustpool",
+   "name": "Trustpool",
+   "website": "https://trustpool.cc/",
+   "coins": [
+    "BTC",
+    "LTC",
+    "BCH",
+    "DASH",
+    "KAS",
+    "DOGE"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d / Scrypt",
+   "payout_scheme": "PPS+",
+   "fee_percent": 1,
+   "fee_by_coin": null,
+   "min_payout": "0.001 BTC",
+   "fee_source": "https://trustpool.cc/en",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://btc.trustpool.cc:3333",
+    "stratum+tcp://btc.trustpool.cc:443",
+    "stratum+tcp://btc.trustpool.cc:25"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "username.worker",
+   "stratum_source": "https://trustpool.cc/static/trustpool_ASIC_connect_ru.pdf",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "neopool",
+   "name": "Neopool",
+   "website": "https://neopool.com/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d",
+   "payout_scheme": "FPPS",
+   "fee_percent": null,
+   "fee_by_coin": null,
+   "min_payout": "0.001 BTC",
+   "fee_source": "https://neopool.com/",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "2miners",
+   "name": "2Miners",
+   "website": "https://2miners.com/",
+   "coins": [
+    "KAS",
+    "ETC",
+    "RVN",
+    "ERG"
+   ],
+   "btc": false,
+   "solo": false,
+   "algorithm": "kHeavyHash / Etchash / KawPow / Autolykos",
+   "payout_scheme": "PPLNS",
+   "fee_percent": 1,
+   "fee_by_coin": null,
+   "min_payout": "0.1 ETC",
+   "fee_source": "https://2miners.com/terms",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "herominers",
+   "name": "HeroMiners",
+   "website": "https://herominers.com/",
+   "coins": [
+    "KAS",
+    "ERG",
+    "RVN",
+    "ETC"
+   ],
+   "btc": false,
+   "solo": false,
+   "algorithm": "kHeavyHash / Autolykos / KawPow / Etchash",
+   "payout_scheme": "PROP",
+   "fee_percent": 0.9,
+   "fee_by_coin": null,
+   "min_payout": "0.01 ETC",
+   "fee_source": "https://etc.herominers.com/api/stats",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "kryptex-pool",
+   "name": "Kryptex Pool",
+   "website": "https://pool.kryptex.com/",
+   "coins": [
+    "BTC",
+    "KAS",
+    "RVN",
+    "ETC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "Etchash / kHeavyHash / KawPow",
+   "payout_scheme": "PPS+",
+   "fee_percent": 3,
+   "fee_by_coin": null,
+   "min_payout": "0.001 BTC",
+   "fee_source": "https://pool.kryptex.com/articles/kryptex-nicehash-rent-en",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://btc.kryptex.network:7014",
+    "stratum+tcp://btc-eu.kryptex.network:7014",
+    "stratum+tcp://btc-us.kryptex.network:7014"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "wallet.worker",
+   "stratum_source": "https://pool.kryptex.com/btc",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "supportxmr",
+   "name": "SupportXMR",
+   "website": "https://supportxmr.com/",
+   "coins": [
+    "XMR"
+   ],
+   "btc": false,
+   "solo": false,
+   "algorithm": "RandomX",
+   "payout_scheme": "PPLNS",
+   "fee_percent": 0.6,
+   "fee_by_coin": null,
+   "min_payout": "0.3 XMR",
+   "fee_source": "https://www.supportxmr.com/api/config",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "nanopool",
+   "name": "Nanopool",
+   "website": "https://nanopool.org/",
+   "coins": [
+    "ETC",
+    "RVN",
+    "ERG"
+   ],
+   "btc": false,
+   "solo": false,
+   "algorithm": "Etchash / KawPow / Autolykos",
+   "payout_scheme": "PPLNS",
+   "fee_percent": 1,
+   "fee_by_coin": null,
+   "min_payout": "1 ETC",
+   "fee_source": "https://help.nanopool.org/hc/en-us/articles/4896633442845-Pool-information",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "woolypooly",
+   "name": "WoolyPooly",
+   "website": "https://woolypooly.com/",
+   "coins": [
+    "KAS",
+    "ETC",
+    "RVN",
+    "ERG"
+   ],
+   "btc": false,
+   "solo": false,
+   "algorithm": "kHeavyHash / Etchash / KawPow / Autolykos",
+   "payout_scheme": "PPLNS",
+   "fee_percent": 0.9,
+   "fee_by_coin": null,
+   "min_payout": "0.1 ETC",
+   "fee_source": "https://woolypooly.com/en/coin/etc",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "foundry-usa",
+   "name": "Foundry USA",
+   "website": "https://foundrydigital.com/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d",
+   "payout_scheme": "FPPS",
+   "fee_percent": null,
+   "fee_by_coin": null,
+   "min_payout": "0.01 BTC",
+   "fee_source": "https://pool-faq.foundrydigital.com/how-is-my-pricing-tier-calculated",
+   "fee_verified": "2026-11-02",
+   "stratum": null,
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": null,
+   "stratum_source": null,
+   "stratum_checked": null
+  },
+  {
+   "id": "nicehash",
+   "name": "NiceHash",
+   "website": "https://www.nicehash.com/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": false,
+   "algorithm": "SHA256d (hashpower marketplace)",
+   "payout_scheme": "RTPPS",
+   "fee_percent": 2,
+   "fee_by_coin": null,
+   "min_payout": "0.00001 BTC",
+   "fee_source": "https://www.nicehash.com/support/mining-help/earnings-and-payments/service-fees-for-miners",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://sha256asicboost.auto.nicehash.com:9200"
+   ],
+   "stratum_ssl": [
+    "stratum+ssl://sha256asicboost.auto.nicehash.com:443"
+   ],
+   "stratum_v2": null,
+   "worker_format": "mining_address.worker",
+   "stratum_source": "https://www.nicehash.com/algorithm",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "ckpool-solo",
+   "name": "CKPool Solo",
+   "website": "https://solo.ckpool.org/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": true,
+   "algorithm": "SHA256d",
+   "payout_scheme": "SOLO",
+   "fee_percent": 2,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://solo.ckpool.org/",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://stratum.ckpool.org:3333"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "btc_address.worker",
+   "stratum_source": "https://solo.ckpool.org/",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "braiins-solo",
+   "name": "Braiins Solo",
+   "website": "https://academy.braiins.com/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": true,
+   "algorithm": "SHA256d",
+   "payout_scheme": "SOLO",
+   "fee_percent": 0.5,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://academy.braiins.com/braiins-pool/solo-mining",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://solo.stratum.braiins.com:3333",
+    "stratum+tcp://solo.stratum.braiins.com:443"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "btc_address.worker",
+   "stratum_source": "https://academy.braiins.com/braiins-pool/solo-mining",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "atlaspool",
+   "name": "AtlasPool",
+   "website": "https://atlaspool.io/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": true,
+   "algorithm": "SHA256d",
+   "payout_scheme": "SOLO",
+   "fee_percent": 1.5,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://atlaspool.io/terms-of-service.html",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://solo.atlaspool.io:3333"
+   ],
+   "stratum_ssl": [
+    "stratum+ssl://solo.atlaspool.io:4333"
+   ],
+   "stratum_v2": null,
+   "worker_format": "btc_address.worker",
+   "stratum_source": "https://atlaspool.io/connect-now.html",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "btc-pow-lab",
+   "name": "BTC PoW Lab",
+   "website": "https://btcpowlab-pool.com/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": true,
+   "algorithm": "SHA256d",
+   "payout_scheme": "Hybrid Solo",
+   "fee_percent": 5,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://btcpowlab-pool.com/start",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://stratum.btcpowlab-pool.com:3333"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "btc_address.worker",
+   "stratum_source": "https://btcpowlab-pool.com/start",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "solopool-com",
+   "name": "SoloPool.com",
+   "website": "https://solopool.com/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": true,
+   "algorithm": "SHA256d",
+   "payout_scheme": "SOLO",
+   "fee_percent": 2,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://solopool.com/terms.html",
+   "fee_verified": "2026-11-02",
+   "stratum": [
+    "stratum+tcp://stratum.solopool.com:3333"
+   ],
+   "stratum_ssl": null,
+   "stratum_v2": null,
+   "worker_format": "btc_address.worker",
+   "stratum_source": "https://solopool.com/",
+   "stratum_checked": "2026-10-27"
+  },
+  {
+   "id": "public-pool",
+   "name": "Public Pool",
+   "website": "https://web.public-pool.io/",
+   "coins": [
+    "BTC"
+   ],
+   "btc": true,
+   "solo": true,
+   "algorithm": "SHA256d",
+   "payout_scheme": "SOLO",
+   "fee_percent": 0,
+   "fee_by_coin": null,
+   "min_payout": "n/a",
+   "fee_source": "https://web.public-pool.io/",
+   "fee_verified": "2026-10-12",
+   "stratum": [
+    "stratum+tcp://public-pool.io:3333",
+    "stratum+tcp://public-pool.io:13333"
+   ],
+   "stratum_ssl": [
+    "stratum+tls://public-pool.io:4333"
+   ],
+   "stratum_v2": "stratum2+tcp://public-pool.io:23330",
+   "worker_format": "btc_address.worker",
+   "stratum_source": "https://web.public-pool.io/",
+   "stratum_checked": "2026-10-27"
+  }
+ ]
+}
