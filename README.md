@@ -1,3 +1,5 @@
+> **Moved:** this dataset now lives at https://github.com/POOLBTC/mining-pool-dataset . This repository is archived.
+
 # POOL BTC mining pool dataset
 
 Fees, payout schemes, minimum payouts and stratum addresses for 25 crypto mining pools, 20 of which mine Bitcoin. Maintained by [POOL BTC](https://pool-btc.com/), an independent comparison of Bitcoin mining pools.
